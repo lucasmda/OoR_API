@@ -31,8 +31,9 @@ namespace OoR_API.Controllers
         }
 
         // PUT: api/Divida/5
-        public void Put(int id, [FromBody]string value)
+        public void Put(int id, [FromBody]Divida value)
         {
+            db.updateDivida(value);
         }
 
         // DELETE: api/Divida/5

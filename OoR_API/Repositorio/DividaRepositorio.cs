@@ -21,5 +21,11 @@ namespace OoR_API.Repositorio
         {
             return _context.dividas;
         }
+
+        public void updateDivida(Divida divida)
+        {
+            _context.Entry(divida).State = EntityState.Modified;
+            _context.SaveChanges();
+        }
     }
 }
