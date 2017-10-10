@@ -20,7 +20,8 @@ namespace OoR_API
                 telefone = "4399-1023",
                 cpf = "234.312.345-31",
                 dataNascimento = new DateTime(1997, 06, 27),
-                email = "lucas@fiap.com"
+                email = "lucas@fiap.com",
+                saldo = 15.000f
             });
 
             context.clientes.Add(new Cliente()
@@ -31,7 +32,8 @@ namespace OoR_API
                 telefone = "4399-0923",
                 cpf = "234.312.345-31",
                 dataNascimento = new DateTime(1995, 09, 25),
-                email = "ivo@fiap.com"
+                email = "ivo@fiap.com",
+                saldo = 16.000f
             });
 
             context.clientes.Add(new Cliente()
@@ -42,7 +44,8 @@ namespace OoR_API
                 telefone = "3212-0923",
                 cpf = "234.312.345-31",
                 dataNascimento = new DateTime(1990, 12, 12),
-                email = "nathalia@fiap.com"
+                email = "nathalia@fiap.com",
+                saldo = 17.000f
             });
 
             base.Seed(context);

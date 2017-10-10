@@ -15,5 +15,6 @@ namespace OoR_API.Models
         public string cpf { get; set; }
         public DateTime dataNascimento { get; set; }
         public string email { get; set; }
+        public float saldo { get; set; }
     }
 }
