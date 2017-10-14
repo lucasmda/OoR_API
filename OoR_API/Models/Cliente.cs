@@ -13,8 +13,8 @@ namespace OoR_API.Models
         public string cep { get; set; }
         public string telefone { get; set; }
         public string cpf { get; set; }
-        public DateTime dataNascimento { get; set; }
+        public string dataNascimento { get; set; }
         public string email { get; set; }
-        public float saldo { get; set; }
+        public double saldo { get; set; }
     }
 }

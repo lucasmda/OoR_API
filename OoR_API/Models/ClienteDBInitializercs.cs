@@ -19,7 +19,7 @@ namespace OoR_API
                 cep = "098.94.596",
                 telefone = "4399-1023",
                 cpf = "234.312.345-31",
-                dataNascimento = new DateTime(1997, 06, 27),
+                dataNascimento = "27/06/1997",
                 email = "lucas@fiap.com",
                 saldo = 15.000f
             });
@@ -31,7 +31,7 @@ namespace OoR_API
                 cep = "098.98.596",
                 telefone = "4399-0923",
                 cpf = "234.312.345-31",
-                dataNascimento = new DateTime(1995, 09, 25),
+                dataNascimento = "04/11/1990",
                 email = "ivo@fiap.com",
                 saldo = 16.000f
             });
@@ -43,7 +43,7 @@ namespace OoR_API
                 cep = "123.98.596",
                 telefone = "3212-0923",
                 cpf = "234.312.345-31",
-                dataNascimento = new DateTime(1990, 12, 12),
+                dataNascimento = "06/12/1982",
                 email = "nathalia@fiap.com",
                 saldo = 17.000f
             });
