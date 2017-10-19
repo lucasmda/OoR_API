@@ -7,10 +7,11 @@ namespace OoR_API.Models
 {
     public class Divida
     {
-        public int id { get; set; }
+        public int Id { get; set; }
         public double valor { get; set; }
         public string dataVencimento { get; set; }
-        public int id_cliente { get; set; }
+        public int ClienteId { get; set; }
+
         public virtual Cliente cliente { get; set; }
     }
 }

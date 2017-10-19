@@ -10,11 +10,11 @@ namespace OoR_API.Repositorio
 {
     public class DividaRepositorio
     {
-        private DividaContext _context;
+        private Context.Context _context;
 
         public DividaRepositorio()
         {
-            _context = new DividaContext();
+            _context = new Context.Context();
         }
 
         public IEnumerable<Divida> getDividas()

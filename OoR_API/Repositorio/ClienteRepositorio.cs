@@ -10,11 +10,11 @@ namespace OoR_API.Repositorio
 {
     public class ClienteRepositorio
     {
-        private ClienteContext _context;
+        private Context.Context _context;
 
         public ClienteRepositorio()
         {
-            _context = new ClienteContext();
+            _context = new Context.Context();
         }
 
         public IEnumerable<Cliente> getClientes()
